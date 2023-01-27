@@ -211,7 +211,7 @@ p {
   pointer-events: none;
 }
 .carousel img{
-  height: 340px;
+  height: 500px;
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
