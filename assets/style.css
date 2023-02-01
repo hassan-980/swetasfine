@@ -13,8 +13,88 @@ body {
 .logo {
   position: absolute;
   z-index: 2;
-  width: 60px;
-  background-color: none;
+  width: 200px;
+  padding: 0px 0px 0px 0px;
+  left: -20px;
+  top: -15px;
+background: none;
+}
+
+.logotext {
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  padding: 0px 0px 0px 0px;
+  left: 120px;
+  top: -20px;
+background: none;
+}
+
+
+
+.text{
+    position: absolute;
+    left: 60px;
+    z-index: 2;
+    background: none;
+    font-family:  font1;
+    font-size: 141px;
+    line-height: -60px;
+    top: 230px;
+    color: white;
+}
+#text1{
+  top: 327px;
+}
+
+#menu{
+  position: absolute;
+  z-index: 2;
+  background: none !important;
+  right: 39px;
+
+  display: flex;
+}
+
+.collection-btn{
+  position: absolute;
+  background: none;
+  left: 60px;
+  z-index: 3;
+  padding: 8px 19px 8px 24px;
+  border-radius: 21px;
+  color: white;
+  border-color: white;
+  top: 460px;
+  font-family: font2;
+}
+
+#menu div{
+  background: none;
+  display: flex;
+}
+
+#menu div ul{
+  background: none;
+  padding: 67px 30px 0px 5px;
+}
+
+#menu div ul li{
+  background: none;
+  list-style: none;
+  display: block;
+  width: 100px;
+}
+
+#menu div ul li a{
+  background: none;
+  font-family: font2;
+  color: white;
+  text-decoration: none;
+}
+#menu div ul li a:hover{
+  color:     #AFA52E;
+  font-size: 15px;
 
 }
 
