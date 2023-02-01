@@ -1,13 +1,14 @@
 *{
     padding: 0%;
     margin: 0%;
-    background-color: white;
+    /* background-color: white; */
 }
 
 html,
 body {
   position: relative;
   height: 100%;
+  background-color: white;
 }
 
 .logo {
@@ -394,6 +395,10 @@ p {
   .author {color: #AFA52E ;
 }
 
+.mySlides p{
+  font-size: 20px;
+}
+
 .testimonials h1{
     font-family: font1;
     font-size: 46px;
@@ -404,8 +409,110 @@ p {
 }
 
 
+.news-container{
+    display: flex;
+    flex-direction: column;
 
+}
+.news div{
+  display: flex;
+}
+.news-img img {
+  width: 400px;
+  
+}
 
+.news-text{
+  background:   #1A5632;
+  width: 100%;
+  flex-direction: column;
+  margin: 0px 0px 0px 8px ;
+  color: #fff;
 
+  padding: 55px 305px 0px 31px;
+}
+.news-text h3{
+  font-family: font1;
+  font-size: 30px;
+}
+.news-text p{
+  font-size: 18px;
+}
 
+.updates{
+  display:flex;
+  
+  text-align: center;
+  background-color: #AFA52E;
+  height:  45px;
+  margin-top: 10px;
 
+  text-align: center;
+  
+  
+}
+
+.updates  a{
+  font-family: font2;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+}
+.updates  a:hover{
+
+  color: rgb(222, 222, 222);
+
+}
+
+.com{
+  width: 100%;
+
+}
+
+.com img{
+  width: 100%;
+}
+
+footer{
+
+  background-image: url(/assets/img/pagw2.jpg) ;
+  display:flex ;
+  height: 200px;
+  margin: auto;
+
+}
+
+#contact-text{
+  font-family: font1;
+  font-size: 46px;
+  padding: 40px 0px 29px 0px;
+  color:     #1A5632;
+}
+
+.icons{
+  padding: 35px 0px 0px 300px;
+  margin: 0px 0px 0px 0px;
+}
+.details{
+  padding: 35px 1px 4px 87px;
+
+}
+.details p{
+  color: white;
+  font-family: font2;
+  font-size: 16px;
+  padding: 0px 4px 3px 0px;
+
+}
+
+.icons  i{
+  color: white;
+  font-size: 28px;
+  padding: 6px 10px 0px 0px;
+}
+.icons  p{
+  color: white;
+  font-size: 17px;
+}
